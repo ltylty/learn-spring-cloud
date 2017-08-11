@@ -1,0 +1,15 @@
+auth-server: http://localhost:8080/authserver
+server:
+  port: 8081
+  context-path: /account/service
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      clientId: SampleClientId
+      clientSecret: secret
+      accessTokenUri: ${auth-server}/oauth/token
+      userAuthorizationUri: ${auth-server}/oauth/authorize
+    resource:
+      userInfoUri: ${auth-server}/current

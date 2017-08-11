@@ -1,10 +1,7 @@
 auth-server: http://localhost:8080/authserver
 server:
   port: 8081
-  context-path: /app1
-  session:
-    cookie:
-      name: UISESSION
+  context-path: /account/ui
 security:
   basic:
     enabled: false
