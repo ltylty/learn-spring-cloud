@@ -1,3 +1,4 @@
+auth-server: http://localhost:8080/authserver
 server:
   port: 8081
   context-path: /app1
@@ -11,10 +12,10 @@ security:
     client:
       clientId: SampleClientId
       clientSecret: secret
-      accessTokenUri: http://localhost:8080/auth/oauth/token
-      userAuthorizationUri: http://localhost:8080/auth/oauth/authorize
+      accessTokenUri: ${auth-server}/oauth/token
+      userAuthorizationUri: ${auth-server}/oauth/authorize
     resource:
-      userInfoUri: http://localhost:8080/auth/current
+      userInfoUri: ${auth-server}/current
 spring:
   thymeleaf:
     cache: false

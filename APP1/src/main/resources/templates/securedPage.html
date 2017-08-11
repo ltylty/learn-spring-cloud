@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Spring Security SSO</title>
@@ -12,6 +12,10 @@
 	<div class="col-sm-12">
 		<h1>Secured Page</h1>
 		Welcome, <span th:text="${#authentication.name}">Name</span>
+		<form th:action="@{/logout}" method="post" id="userform" th:fragment="header">
+		<a href="#" onclick="document.getElementById('userform').submit();"><i
+                        class="material-icons">power_settings_new</i></a>
+		</form>
 	</div>
 </div>
 </body>

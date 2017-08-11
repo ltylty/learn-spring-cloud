@@ -1,5 +1,5 @@
 server:
-  context-path: /auth
+  context-path: /authserver
   port: 8080
 management:
   security:
