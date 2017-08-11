@@ -13,8 +13,9 @@
 		<h1>Secured Page</h1>
 		Welcome, <span th:text="${#authentication.name}">Name</span>
 		<form th:action="@{/logout}" method="post" id="userform" th:fragment="header">
-		<a href="#" onclick="document.getElementById('userform').submit();"><i
-                        class="material-icons">power_settings_new</i></a>
+		<a href="#" onclick="document.getElementById('userform').submit();">
+		<i class="material-icons">logout</i>
+		</a>
 		</form>
 	</div>
 </div>

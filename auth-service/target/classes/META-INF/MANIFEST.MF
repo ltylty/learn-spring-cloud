@@ -2,10 +2,10 @@ Manifest-Version: 1.0
 Implementation-Title: auth-service
 Implementation-Version: 1.0-SNAPSHOT
 Built-By: tianyuan
-Implementation-Vendor-Id: cn.zhangxd
+Implementation-Vendor-Id: com.tianyuan
 Build-Jdk: 1.8.0_74
-Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-
- cloud/auth-service/
+Implementation-URL: http://projects.spring.io/spring-boot/cloud/auth-s
+ ervice/
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
 
