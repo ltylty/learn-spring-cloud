@@ -1,7 +1,7 @@
 auth-server: http://localhost:8080/authserver
 server:
   port: 8081
-  context-path: /account/service
+  context-path: /service
 security:
   basic:
     enabled: false
