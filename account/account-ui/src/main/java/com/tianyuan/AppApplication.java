@@ -5,8 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.context.request.RequestContextListener;
 
+import com.tianyuan.config.EnableAccountSDK;
+
 
 @SpringBootApplication
+@EnableAccountSDK
 public class AppApplication {
 
 	public static void main(String[] args) {

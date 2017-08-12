@@ -11,6 +11,7 @@ security:
       clientSecret: secret
       accessTokenUri: ${auth-server}/oauth/token
       userAuthorizationUri: ${auth-server}/oauth/authorize
+      grant-type: client_credentials
     resource:
       userInfoUri: ${auth-server}/current
 spring:
