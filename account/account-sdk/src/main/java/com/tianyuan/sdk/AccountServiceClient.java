@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @FeignClient(name = "account-service", fallback = AccountServiceClient.AccountServiceClientFallback.class)
 public interface AccountServiceClient {
 
-	@RequestMapping(value="/account/users/add", method=RequestMethod.GET)
+	@RequestMapping(value="/service/account/users/add", method=RequestMethod.GET)
 	public String add();
 
     @Component

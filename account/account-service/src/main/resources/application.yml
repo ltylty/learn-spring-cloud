@@ -1,7 +1,13 @@
 auth-server: http://localhost:8080/authserver
 server:
   port: 8081
-  context-path: /service
+  context-path: /
+spring:
+     application:
+          name: account-service
+     http:
+       encoding:
+         force: true  
 security:
   basic:
     enabled: false
@@ -13,3 +19,9 @@ security:
       userAuthorizationUri: ${auth-server}/oauth/authorize
     resource:
       userInfoUri: ${auth-server}/current
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

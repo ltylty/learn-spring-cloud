@@ -8,13 +8,14 @@ import com.tianyuan.sdk.AccountServiceClient;
 
 @Controller
 public class UsersController {
-	
+
 	@Autowired
 	private AccountServiceClient accountServiceClient;
-	
+
 	@RequestMapping("/test")
 	public String addUser() {
-		return accountServiceClient.add();
+		String result = accountServiceClient.add();
+		return result;
 	}
 
 }

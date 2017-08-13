@@ -9,7 +9,7 @@ import io.swagger.annotations.ApiOperation;
 
 @Api(value = "用户管理")
 @RestController
-@RequestMapping("/account/users")
+@RequestMapping("/service/account/users")
 public class UsersController {
 
 	@ApiOperation(value="新增用户", notes="")
