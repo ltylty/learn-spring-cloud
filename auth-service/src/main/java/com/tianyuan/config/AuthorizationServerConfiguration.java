@@ -58,16 +58,6 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
                 .scopes("read", "write")
                 .accessTokenValiditySeconds(3600) // 1 hour
                 .refreshTokenValiditySeconds(2592000) // 30 days
-               /* .and()
-                .withClient("svca-service")
-                .secret("password")
-                .authorizedGrantTypes("client_credentials", "refresh_token")
-                .scopes("server")
-                .and()
-                .withClient("svcb-service")
-                .secret("password")
-                .authorizedGrantTypes("client_credentials", "refresh_token")
-                .scopes("server")*/
                 .and()
                 .withClient("accountClient")
                 .secret("accountSecret")
