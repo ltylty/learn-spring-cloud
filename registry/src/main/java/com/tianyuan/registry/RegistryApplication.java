@@ -1,4 +1,4 @@
-package cn.zhangxd.registry;
+package com.tianyuan.registry;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
