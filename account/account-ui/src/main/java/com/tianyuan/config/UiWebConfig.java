@@ -1,4 +1,4 @@
-package com.tianyuan.ui.account.config;
+package com.tianyuan.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;

@@ -1,4 +1,4 @@
-package com.tianyuan.ui.account.config;
+package com.tianyuan.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso;
