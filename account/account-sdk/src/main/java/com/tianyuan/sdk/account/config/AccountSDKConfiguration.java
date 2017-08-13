@@ -1,4 +1,4 @@
-package com.tianyuan.config;
+package com.tianyuan.sdk.account.config;
 
 import org.springframework.cloud.security.oauth2.client.feign.OAuth2FeignRequestInterceptor;
 import org.springframework.context.annotation.Bean;

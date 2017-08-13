@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.context.request.RequestContextListener;
 
-import com.tianyuan.config.EnableAccountSDK;
+import com.tianyuan.sdk.account.config.EnableAccountSDK;
 
 
 @SpringBootApplication

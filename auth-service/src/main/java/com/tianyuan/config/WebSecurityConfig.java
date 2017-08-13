@@ -30,11 +30,11 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception { // @formatter:off
     	auth.jdbcAuthentication().dataSource(dataSource)
-        .withUser("dave").password("secret").roles("USER")
+        .withUser("dave").password("123").roles("USER")
         .and()
-        .withUser("anil").password("password").roles("ADMIN")
+        .withUser("anil").password("123").roles("USER")
         .and()
-        .withUser("john").password("123").roles("USER");
+        .withUser("john").password("123").roles("ADMIN");
     } // @formatter:on
 
 }

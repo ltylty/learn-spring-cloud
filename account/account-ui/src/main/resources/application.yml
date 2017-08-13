@@ -1,7 +1,7 @@
 auth-server: http://localhost:8080/authserver
 server:
   port: 8082
-  context-path: /account/ui
+  context-path: /
 spring:
   application:
     name: account-ui

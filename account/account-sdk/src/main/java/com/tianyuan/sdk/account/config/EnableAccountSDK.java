@@ -1,4 +1,4 @@
-package com.tianyuan.config;
+package com.tianyuan.sdk.account.config;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
