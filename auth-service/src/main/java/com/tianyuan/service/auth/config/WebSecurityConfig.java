@@ -1,4 +1,4 @@
-package com.tianyuan.config;
+package com.tianyuan.service.auth.config;
 
 import javax.sql.DataSource;
 

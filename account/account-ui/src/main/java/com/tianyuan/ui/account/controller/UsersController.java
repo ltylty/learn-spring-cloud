@@ -1,4 +1,4 @@
-package com.tianyuan.controller;
+package com.tianyuan.ui.account.controller;
 
 import java.util.List;
 

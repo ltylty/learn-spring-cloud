@@ -1,4 +1,4 @@
-package com.tianyuan.controller;
+package com.tianyuan.service.auth.controller;
 
 import java.io.IOException;
 import java.security.Principal;
