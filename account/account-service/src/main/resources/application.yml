@@ -3,11 +3,11 @@ server:
   port: 8081
   context-path: /
 spring:
-     application:
-          name: account-service
-     http:
-       encoding:
-         force: true  
+  application:
+    name: account-service
+  http:
+    encoding:
+      force: true
 security:
   basic:
     enabled: false
@@ -25,3 +25,18 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+druid:
+  url: jdbc:mysql://localhost:3306/tianyuan
+  username: root
+  password: 123456
+  initial-size: 1
+  min-idle: 1
+  max-active: 20
+  test-on-borrow: true
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+mapper:
+  mappers:
+    - com.tianyuan.service.framework.dao.BaseDao
+  not-empty: false
+  identity: MYSQL
