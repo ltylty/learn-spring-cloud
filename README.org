@@ -1,0 +1,4 @@
+* 使用spring cloud搭建分布式系统
+* 实现sso
+* 实现oauth2
+* spring cloud提供服务注册与发现，断路器，负载均衡，集中配置管理，路由等等。
