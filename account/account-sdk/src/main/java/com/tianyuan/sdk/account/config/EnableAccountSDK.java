@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Import;
 @Target({ java.lang.annotation.ElementType.TYPE })
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-@EnableFeignClients
+@EnableFeignClients(basePackages="com.tianyuan.sdk.account.client")
 @Import(AccountSDKConfiguration.class)
 public @interface EnableAccountSDK {
 	
