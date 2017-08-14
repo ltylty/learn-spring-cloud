@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: service-framework
 Implementation-Version: 1.0-SNAPSHOT
-Built-By: tianyuan
+Built-By: xuechuang
 Implementation-Vendor-Id: com.tianyuan
-Build-Jdk: 1.8.0_74
+Build-Jdk: 1.8.0_131
 Implementation-URL: http://projects.spring.io/spring-boot/cloud/servic
  e-parent/service-framework/
 Created-By: Maven Integration for Eclipse
